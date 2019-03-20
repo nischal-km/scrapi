@@ -1,8 +1,6 @@
 from flask import Flask, request
 from flask_restful import Resource, Api,reqparse
 from json import dumps
-import pandas as pd
-import numpy as np
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
